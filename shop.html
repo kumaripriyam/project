@@ -10,14 +10,15 @@
          body{
             background-color: rgb(135, 53, 95);
          } 
-         h1{
+         h3{
             margin-left: 700px;
             color: rgb(179, 179, 113);
             font-size: 50px;
+            margin-top: 100px;
         
          }
          h2{
-            margin-top: -120px;
+            margin-top: -10px;
             margin-left: 10px;
             color: rgb(178, 89, 104);
             background-color: pink;
@@ -28,22 +29,89 @@
            margin-top: 60px;
 
          }
+         nav{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 47, 165);
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+
+
+}
+nav h2{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #000;
+
+}
+nav h2 span{
+    font-style: italic;
+    color: rgb(255, 47, 165);
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    padding: 12px;
+    background-color: rgb(255,47, 165);
+    transition:15 ;
+}
+nav .btn{
+    color:#000;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 12px;
+    background-color: rgb(255, 47, 165);
+}
 
 
 
     </style>
-    <h1>Shop Now </h1>
+    <header>
+        <nav>
+            <h2><Span>Fashion</Span><br>Clothing</h2>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="#">COSTING</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <p> <marquee><B>FLAT RS.400 OFF</B> + FREE Shipping on your 1st Order</marquee></p>
+            <a class="btn" href="https://www.google.com/maps/d/viewer?vpsrc=6&ctz=-60&ie=UTF8&msa=0&t=h&ll=22.553147000000013%2C88.
+            374023&spn=17.192189%2C43.945313&z=5&source=embed&mid=1bIvaSgeWlj2YOTUgjvDioEzAbFo">ENTER LOCATION</a>
+            <a class="btn" href="loginpage.html">Login</a>
+        </nav>
+
+    </header>
+    <h3>Shop Now </h3>
     <h2>
     <marquee><select id="id1">
      <option value="select"selected>Search for casual coord for men and women</option>
      <option value="Male">Means Wear</option>
      <option value="Female">women's Wear</option>
  </select></marquee></h2>
-     <p><marquee><img src="Screenshot 2024-10-26 221829.png" width="550px" height="300px">
-    <img src="WhatsApp Image 2024-10-26 at 22.17.25.jpeg" width="550px" height="300px"></marquee> </p>
+     <p><marquee><img src="Screenshot 2024-10-26 221829.png" width="550px" height="200px">
+    <img src="WhatsApp Image 2024-10-26 at 22.17.25.jpeg" width="550px" height="200px"></marquee> </p>
 </body>
-<footer><p1> <img src="WhatsApp Image 2024-10-26 at 22.30.44.jpeg" width="400px" height="400px" > 
-              <img src="WhatsApp Image 2024-10-26 at 22.31.58.jpeg" width="350px" height="400px">  
-              <img src="WhatsApp Image 2024-10-26 at 22.33.26.jpeg" width="350px" height="400px">
-              <img src="WhatsApp Image 2024-10-26 at 22.34.25.jpeg" width="350px" height="400px"> </p1></footer>
+<footer><p1> <img src="WhatsApp Image 2024-10-26 at 22.30.44.jpeg" width="500px" height="300px" >   
+              <img src="WhatsApp Image 2024-10-26 at 22.33.26.jpeg" width="450px" height="300px">
+              <img src="WhatsApp Image 2024-10-26 at 22.34.25.jpeg" width="450px" height="300px"> </p1></footer>
 </html>
